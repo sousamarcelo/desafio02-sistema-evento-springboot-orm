@@ -19,7 +19,3 @@ INSERT INTO tb_atividade_participante (atividade_id, participante_id) VALUES (2,
 INSERT INTO tb_bloco (inicio, fim, atividade_id) VALUES ('2017-09-25T08:00:00Z','2017-09-25T11:00:00Z', 1)
 INSERT INTO tb_bloco (inicio, fim, atividade_id) VALUES ('2017-09-25T14:00:00Z','2017-09-25T18:00:00Z', 2)
 INSERT INTO tb_bloco (inicio, fim, atividade_id) VALUES ('2017-09-26T08:00:00Z','2017-09-26T11:00:00Z', 2)
-
-
-
-
