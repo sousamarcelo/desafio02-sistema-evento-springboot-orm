@@ -1,8 +1,10 @@
 package com.devsuperior.desafio02.entities;
 
 import java.util.ArrayList;
+import java.util.HashSet;
 import java.util.List;
 import java.util.Objects;
+import java.util.Set;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
@@ -21,7 +23,7 @@ public class Categoria {
 	private String descricao;
 	
 	@OneToMany(mappedBy = "categoria")
-	private List<Atividade> atividades = new ArrayList<>();
+	private Set<Atividade> atividades = new HashSet<>();
 		
 	public Categoria() {
 	}
@@ -47,7 +49,7 @@ public class Categoria {
 		this.descricao = descricao;
 	}
 	
-	public List<Atividade> getAtividades() {
+	public Set<Atividade> getAtividades() {
 		return atividades;
 	}
 
