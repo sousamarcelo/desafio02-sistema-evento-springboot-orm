@@ -23,7 +23,7 @@ public class Bloco {
 	
 	@Column(columnDefinition = "TIMESTAMP WITHOUT TIME ZONE")
 	private Instant fim;
-	
+		
 	public Bloco() {
 	}
 
